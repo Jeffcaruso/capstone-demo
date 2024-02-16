@@ -37,18 +37,21 @@ Completing this should prepare you to know what to do for your next full assignm
 
 ## Steps to Commit to GitHub with VSC
 ### Prerequisite: you have already 'git cloned' and 'code .' properly
-1. Make changes to commit, view changes in the source control tab of VSC
+1. Make changes to commit, view changes in the source control ![images/source control](https://github.com/Jeffcaruso/capstone-demo/blob/main/images/source%20control.PNG) tab of VSC
 2. Enter a commit message
 3. Press 'commit'
-4. Press 'Sync Changes'
-5. Press OK to the "This action will push and pull commits from and to origin/main" dialog
-6. Your code will be pushed to github
+4. Press yes on the 'There are no staged changes to commit' dialog box.
+    1. This will stage all changes and commit them directly   
+6. Press 'Sync Changes'
+7. Press OK to the "This action will push and pull commits from and to origin/main" dialog box
+8. Your code will be pushed to github
 
 ## Steps of tracking VSC GitHub Actions Autograder
-1. Follow previous steps to commit to the GitHub repo
+1. Follow previous steps to commit to the GitHub repo 
 1. Navigate in a browser to see the repo page
 1. There will be a yellow circle while the tests are running to the right of your commit message
     1. ![images/actions status.png](https://github.com/Jeffcaruso/capstone-demo/blob/main/images/actions%20status.PNG)
+    2. Note, in some browsers, the yellow circle may not automatically update, if it has been more than about 1 minute and it is still not green, try refreshing the page.
 1. There once testing completes there will either be a:
     1. Red X
     2. Green check
