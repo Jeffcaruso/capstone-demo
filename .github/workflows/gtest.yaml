@@ -12,6 +12,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run Install script for GTest
-      run:  ./install-googletest.sh
+      run:  ./.github/workflows/install-googletest.sh
     - name: Build + Run the project
       run: ./runit.sh
